@@ -12,9 +12,6 @@ print("hallo wieder ein test!! hehe")
 
 print("hello world")
 print("Dies ist ein Test!")
-<<<<<<< HEAD
 
 print("mhmmmm")
-=======
 print("Hallo was geht?")
->>>>>>> f1fd76a72842af921e3fd739062ff0a99018addb
