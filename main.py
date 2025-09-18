@@ -16,25 +16,38 @@ def divide(x,y):
      return "Divison durch 0 geht nicht!"
     return x/y
 
+statement = "ja"
+while statement == "ja":
 
-print("Please enter your 2 numbers")
-x = float(input("x = "))
-y = float(input("y = "))
+ print("Please enter your 2 numbers")
+ x = float(input("x = "))
+ y = float(input("y = "))
 
-print("Enter what you wanna do")
+ print("Enter what you wanna do")
 
-funktion = input()
-if funktion == "add":
+ funktion = input()
+ if funktion == "add":
     print(add(x,y))
     
-elif funktion == "sub":
+ elif funktion == "sub":
     print(sub(x,y))
 
-elif funktion == "multiply":
+ elif funktion == "multiply":
     print(multiply(x,y))
 
-elif funktion == "divide":
+ elif funktion == "divide":
     print(divide(x,y))
 
-else:
- print("Didnt understand, try again!")
+ else:
+    print("Didnt understand, try again!")
+    
+ statement = input("Nochmal?    ")
+
+ if statement == "ja":
+    print("ok du willst nochmal")
+
+ if statement == "nein":
+    print("ok schade, dann nicht")
+    break
+
+ 
